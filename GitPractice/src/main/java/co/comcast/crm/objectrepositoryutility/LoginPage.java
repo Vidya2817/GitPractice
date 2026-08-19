@@ -1,7 +1,6 @@
 package co.comcast.crm.objectrepositoryutility;
 
 import java.sql.Driver;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,6 +30,7 @@ public class LoginPage {           //R1-create  separate POM class
  public WebElement getUsernameEdit() {
 	return usernameEdit;
  }
+ 
  public WebElement getPasswordEdit() {
 	return passwordEdit;
  }
@@ -38,7 +38,6 @@ public class LoginPage {           //R1-create  separate POM class
  public WebElement getLogin() {
 	return login;
  }
-
  
 //R5- object utilization by multiple element via business actions
  public void loginToApp(String username,String password)
@@ -47,7 +46,6 @@ public class LoginPage {           //R1-create  separate POM class
 	usernameEdit.sendKeys(username);
 	passwordEdit.sendKeys(password);
 	login.click();
-	
 }
  
 }
