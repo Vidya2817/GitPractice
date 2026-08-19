@@ -66,7 +66,6 @@ public class HomePage{
 		
 	}
 
-	
 	public void logout()
 	{
 	Actions act1=new Actions(driver);
