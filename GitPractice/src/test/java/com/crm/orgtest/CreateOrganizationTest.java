@@ -76,7 +76,7 @@ public class CreateOrganizationTest {
 		Organizationspage op=new Organizationspage(driver);
 		op.getCreateOrganization().click();
 		CraeteNewOrganizationpage cnop=new CraeteNewOrganizationpage(driver);
-        cnop.createorgname(organizationName);
+       cnop.createorgname(organizationName);
        OrganizationInfoPage oip=new OrganizationInfoPage(driver);
        String actOrgname= oip.getHeadermessage().getText();
        if(actOrgname.contains(organizationName))

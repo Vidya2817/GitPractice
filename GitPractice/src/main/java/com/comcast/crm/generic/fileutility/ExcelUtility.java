@@ -13,7 +13,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class ExcelUtility {
+public class ExcelUtility
+{
 
  public String getDataFromExcel(String sheetname,int rowno,int cellno) throws Throwable
 	{

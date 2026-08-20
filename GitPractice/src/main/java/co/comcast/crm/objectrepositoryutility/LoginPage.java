@@ -30,7 +30,6 @@ public class LoginPage {           //R1-create  separate POM class
  public WebElement getUsernameEdit() {
 	return usernameEdit;
  }
- 
  public WebElement getPasswordEdit() {
 	return passwordEdit;
  }

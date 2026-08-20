@@ -13,7 +13,12 @@ public class dependOnScriptTest{
 		{
 		System.out.println("mobile");
 		}
-	@Test(dependsOnMethods = "createContactWithMobileTest")
+	@Test
+	public void createContactWithMobile1Test()
+	{
+	System.out.println("mobile one");
+	}
+	@Test(dependsOnMethods = {"createContactWithMobileTest","createContactWithMobile1Test"})
 	public void createContactWithIndustryTypeTest()
 		{
 		System.out.println("industryType");

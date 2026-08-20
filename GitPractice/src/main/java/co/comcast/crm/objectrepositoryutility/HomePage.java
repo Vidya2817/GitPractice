@@ -63,9 +63,7 @@ public class HomePage{
 		Actions act=new Actions(driver);
 		act.moveToElement(morelink).perform();
 		campaignlink.click();
-		
 	}
-
 	public void logout()
 	{
 	Actions act1=new Actions(driver);
